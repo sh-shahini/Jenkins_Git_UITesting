@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test suite]">
+  <test thread-count="5" name="First Test(failed)">
+    <classes>
+      <class name="com.fdmgroup.seleniumdemo.test.TestCase2">
+        <methods>
+          <include name="googleTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.fdmgroup.seleniumdemo.test.TestCase2 -->
+    </classes>
+  </test> <!-- First Test(failed) -->
+</suite> <!-- Failed suite [Test suite] -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test suite" duration-ms="11759" started-at="2020-10-21T15:14:48Z" finished-at="2020-10-21T15:15:00Z">
+    <groups>
+    </groups>
+    <test name="First Test" duration-ms="11759" started-at="2020-10-21T15:14:48Z" finished-at="2020-10-21T15:15:00Z">
+      <class name="com.fdmgroup.seleniumdemo.test.TestCase2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fdmgroup.seleniumdemo.test.TestCase2@1d16f93d]" name="setUp" is-config="true" duration-ms="8964" started-at="2020-10-21T15:14:48Z" finished-at="2020-10-21T15:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTitleTest(java.lang.String)[pri:0, instance:com.fdmgroup.seleniumdemo.test.TestCase2@1d16f93d]" name="googleTitleTest" duration-ms="2045" started-at="2020-10-21T15:14:57Z" finished-at="2020-10-21T15:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fdmgroup.seleniumdemo.test.TestCase2@1d16f93d]" name="tearDown" is-config="true" duration-ms="709" started-at="2020-10-21T15:14:59Z" finished-at="2020-10-21T15:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fdmgroup.seleniumdemo.test.TestCase2 -->
+    </test> <!-- First Test -->
+  </suite> <!-- Test suite -->
+</testng-results>
