@@ -6,6 +6,14 @@
 	<artifactId>SeleniumDemo</artifactId>
 	<version>1.0.0</version>
 	<name>SeleniumDemo</name>
+	
+	<distributionManagement>
+        	<repository>
+           		<id>TestRepo</id>
+            		<url>http://localhost:8081/repository/TestRepo/</url>
+            		<layout>default</layout>
+		</repository>
+    	</distributionManagement>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -33,14 +41,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-        	<repository>
-           		<id>TestRepo</id>
-            		<name>TestRepo</name>
-            		<url>http://localhost:8081/repository/TestRepo/</url>
-            		<layout>default</layout>
-		</repository>
-    	</distributionManagement>
+	
 	<dependencies>
 		<dependency>
 			<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
