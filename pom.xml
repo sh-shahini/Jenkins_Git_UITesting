@@ -33,6 +33,14 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+        	<repository>
+           		<id>TestRepo</id>
+            		<name>TestRepo</name>
+            		<url>http://localhost:8081/repository/TestRepo/</url>
+            		<layout>default</layout>
+		</repository>
+    	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
