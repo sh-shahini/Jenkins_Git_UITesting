@@ -8,12 +8,17 @@
 	<name>SeleniumDemo</name>
 	
 	<distributionManagement>
-        	<repository>
-           		<id>TestRepo</id>
-            		<url>http://localhost:8081/repository/TestRepo/</url>
-            		<layout>default</layout>
-		</repository>
-    	</distributionManagement>
+	<snapshotRepository>
+		<id>maven-snapshots</id>
+		<url>http://localhost:8081/repository/maven-snapshots/</url>
+		<layout>default</layout>
+	</snapshotRepository>
+	<repository>
+		<id>maven-releases</id>
+		<url>http://localhost:8081/repository/maven-releases/</url>
+		<layout>default</layout>
+	</repository>
+	</distributionManagement>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
